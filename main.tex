@@ -1,0 +1,75 @@
+%% This is a skeleton file demonstrating the use of IEEEtran.cls (requires IEEEtran.cls version 1.8a or later) with an IEEE conference paper.
+%%
+%% Modified by Khan Reaz( kahn.reaz@ieee.org)
+%% Support sites:
+%% http://www.ieee.org/
+
+%%***********************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or implied; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk and can modify as s/he wants.
+
+%%***********************************************************
+
+%package list
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{mdwmath}
+\usepackage{amsmath}
+\usepackage{mdwtab}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+
+
+\begin{document}
+
+%Here goes the title
+
+\title{Analysing Distributed Ledger Mechanisms}
+
+
+%Authors List
+
+% \author
+% {\IEEEauthorblockN{Sourav Das}
+% \IEEEauthorblockA{National University of Singapore\\
+% souravdas1547@gmail.com}
+% }
+\maketitle
+
+
+\begin{abstract}
+Abstract goes here
+\end{abstract}
+
+
+\input{sections/Objective.tex}
+\input{sections/IncentiveCompatibiliy.tex}
+\input{sections/RelatedWork.tex}
+
+
+   
+
+    
+
+%example for inserting image
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[scale=.45]{OWL2}
+%     \caption{The structure of OWL2}
+%     \label{fig:OWL2}
+% \end{figure}
+
+
+
+
+\bibliographystyle{IEEEtranS}
+\bibliography{IEEEabrv,references}
+
+\end{document}
